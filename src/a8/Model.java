@@ -23,6 +23,7 @@ public class Model implements Runnable{
     
 	@Override
 	public void run() {
+    		
     	
         int cell = 0, row, col;
         boolean[][] areaCopy = this.copyArea();
@@ -415,7 +416,7 @@ public class Model implements Runnable{
 		return iter;
 	}
 
-    public void nextGen() {
+    public void nextGen() {    		
 		iteration++;
 
     	
