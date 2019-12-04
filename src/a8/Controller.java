@@ -5,6 +5,7 @@ public class Controller {
 	private Model model;
 	private int test;
 	private View view;
+	private int but;
 	
 	public Controller (Model model, View view) {
 		this.model = model;
