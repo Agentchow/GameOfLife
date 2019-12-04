@@ -3,6 +3,7 @@ package a8;
 public class Controller {
 	
 	private Model model;
+	private int test;
 	private View view;
 	
 	public Controller (Model model, View view) {
