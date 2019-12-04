@@ -48,6 +48,7 @@ public class View extends JApplet {
                     if(e.getKeyChar() == KeyEvent.VK_ENTER) {
                     	for (int i=0; i<100000; i++) {
                             nextGen();
+                            int i =0;
                     	}
                     }
                 }
